@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Font</title>
+    <style>
+        @font-face {
+            font-family: 'font_test';
+            src: url('font/font_test.eot');
+            src: url('font/font_test.eot?#font-spider') format('embedded-opentype'),
+            url('font/font_test.woff2') format('woff2'),
+            url('font/font_test.woff') format('woff'),
+            url('font/font_test.ttf') format('truetype'),
+            url('font/font_test.svg') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        /*使用指定字体*/
+        body {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        .font-test {
+            font-family: 'font_test';
+        }
+
+        .font-origin {
+            font-family: 'sans-serif';
+        }
+    </style>
+</head>
+<body>
+<table>
+    <tr>
+        <td class="font-test">
+            <p>你看</p>
+            <p>我们都在以自己的方式解读</p>
+            <p>读懂别人</p>
+            <p>我们也都在以自己的方式表达</p>
+            <p>希望被读懂</p>
+            <br>
+            <p>但看杂志看论坛看微信看APP</p>
+            <p>里面的评论，好多是：</p>
+            <p>希望他／她／它能懂我</p>
+            <p>可为什么就是不懂</p>
+            <br>
+            <p>So Heresay，我们来假设</p>
+            <p>如果有个世界的设定，就是</p>
+            <p>“可能永远不会有人懂你”</p>
+            <p>然后呢？</p>
+            <p>你会相信什么？你会怎么做？</p>
+            <p> 你的世界又会长成什么样子？</p></td>
+        <td class="font-origin">
+            <p>你看</p>
+            <p>我们都在以自己的方式解读</p>
+            <p>读懂别人</p>
+            <p>我们也都在以自己的方式表达</p>
+            <p>希望被读懂</p>
+            <br>
+            <p>但看杂志看论坛看微信看APP</p>
+            <p>里面的评论，好多是：</p>
+            <p>希望他／她／它能懂我</p>
+            <p>可为什么就是不懂</p>
+            <br>
+            <p>So Heresay，我们来假设</p>
+            <p>如果有个世界的设定，就是</p>
+            <p>“可能永远不会有人懂你”</p>
+            <p>然后呢？</p>
+            <p>你会相信什么？你会怎么做？</p>
+            <p> 你的世界又会长成什么样子？</p>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
